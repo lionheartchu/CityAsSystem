@@ -1,0 +1,377 @@
+@font-face {
+    font-family: 'Verlag';
+    src: url('../Verlag-Book.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GaramondPro';
+    src: url('../fonts/AGaramondPro-Regular.woff') format('woff');
+}
+@keyframes shine{
+    0% {opacity:0};
+    90%{opacity:0};
+    100% {opacity:1};
+}
+body{
+    font-family: 'GaramondPro';
+    margin:1.5%;
+}
+.wrapper1{
+    font-size:1.3vw;
+    margin:1.5% -1.5% 0% -1.5%;
+    padding:1.5%;
+    height:7vw;
+    color:#2b292b;
+    width: 130vw;
+    background-color: #ececec;
+}
+h1{
+    letter-spacing: 0.1vw;
+    font-family: 'Verlag';
+    background-color: #2b292b;
+    height:3vw;
+    margin:-1.5%;
+    width:130vw;
+    padding:1% 1.5% 1% 1.5%;
+    color:white;
+}
+.textC{
+    /* color: mediumslateblue; */
+    margin-top:1.5%;
+    /* animation: shine 5s ease-out infinite alternate; */
+}
+.bar{
+    position:absolute;
+    top:50%;
+    text-align: center;
+    width:130%;
+    height:0.3vw;
+    background-color: #2b292b;
+}
+
+/* dots-1 */
+.dot{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: tomato;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.dot:nth-child(1) {
+    left: 1%;
+}
+.dot:nth-child(2) {
+    left: 4%;
+}
+.dot:nth-child(3) {
+    left: 7%;
+}
+.dot:nth-child(4) {
+    left: 10%;
+}
+.dot:nth-child(5) {
+    left: 13%;
+}
+.dot:nth-child(6) {
+    left: 16%;
+}
+.dot:nth-child(7) {
+    left: 19%;
+}
+.dot:nth-child(8) {
+    left: 22%;
+}
+.dot:nth-child(9) {
+    left: 25%;
+}
+.dot:nth-child(10) {
+    left: 28%;
+}
+.dot2{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: orange;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.dot2-1 {
+    left: 31%;
+}
+.dot2-2{
+    left: 34%;
+}
+.dot2-3{
+    left: 37%;
+}
+.dot2-4 {
+    left: 40%;
+}
+.dot2-5 {
+    left: 43%;
+}
+.dot2-6{
+    left: 46%;
+}
+.dot2-7{
+    left: 49%;
+}
+.dot2-8 {
+    left: 52%;
+}
+.dot2-9 {
+    left: 55%;
+}
+.dot2-10{
+    left: 58%;
+}
+.dot3{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: limegreen;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.dot3-1 {
+    left: 61%;
+}
+.dot3-2{
+    left: 64%;
+}
+.dot3-3{
+    left: 67%;
+}
+.dot3-4 {
+    left: 70%;
+}
+.dot3-5{
+    left: 73%;
+}
+.dot3-6{
+    left: 76%;
+}
+.dot3-7{
+    left: 79%;
+}
+.dot3-8{
+    left: 82%;
+}
+.dot3-9{
+    left: 85%;
+}
+.dot3-10{
+    left: 88%;
+}
+.dot4{
+    position: absolute;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.dot4-1 {
+    left: 91%;
+}
+.dot4-2{
+    left: 94%;
+}
+
+/* small dots */
+.small-dot-up{
+    position: absolute;
+    width: 0.5vw;
+    height: 0.5vw;
+    background-color: tomato;
+    border-radius: 50%;
+    top: -250%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.small-dot-under{
+    position: absolute;
+    width: 0.5vw;
+    height: 0.5vw;
+    background-color: tomato;
+    border-radius: 50%;
+    top: 330%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.small-dot-up2{
+    position: absolute;
+    width: 0.5vw;
+    height: 0.5vw;
+    background-color: orange;
+    border-radius: 50%;
+    top: -250%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.small-dot-under2{
+    position: absolute;
+    width: 0.5vw;
+    height: 0.5vw;
+    background-color: orange;
+    border-radius: 50%;
+    top: 330%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.small-dot-up3{
+    position: absolute;
+    width: 0.5vw;
+    height: 0.5vw;
+    background-color: limegreen;
+    border-radius: 50%;
+    top: -250%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.small-dot-under3{
+    position: absolute;
+    width: 0.5vw;
+    height: 0.5vw;
+    background-color: limegreen;
+    border-radius: 50%;
+    top: 330%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.small-dot-up4{
+    position: absolute;
+    width: 0.5vw;
+    height: 0.5vw;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    top: -250%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.small-dot-under4{
+    position: absolute;
+    width: 0.5vw;
+    height: 0.5vw;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    top: 330%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* lines with dots */
+.dot-line-up {
+    position: absolute;
+    width: 0.08vw;
+    height: 3.5vw;
+    background-color: #2b292b;
+    top: -3.5vw; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dot-line-under {
+    position: absolute;
+    width: 0.08vw;
+    height: 3.5vw;
+    background-color: #2b292b;
+    top: 1.5vw; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* quantity with lines */
+.line-text-up{
+    position: absolute;
+    width:4.5vw;
+    top: -340%; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: #898989;
+    font-size: 0.9vw;
+}
+.line-text-under{
+    position: absolute;
+    width:5vw;
+    top: 390%; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: #898989;
+    font-size: 0.9vw;
+}
+
+
+/* year with dots */
+.dot-text-under {
+    position: absolute;
+    top: 150%; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size:1vw;
+}
+.dot-text-up {
+    position: absolute;
+    top: -100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 1vw;
+}
+
+.hint1{
+    position:absolute;
+    margin-top: 26%;
+    margin-left:1%;
+    font-size:1.4vw;
+    opacity:0;
+    transition: opacity 0.8s ease-in-out;
+}
+.hint2{
+    position:absolute;
+    margin-top: -1%;
+    margin-left:41%;
+    font-size:1.4vw;
+    opacity:0;
+    transition: opacity 0.8s ease-in-out;
+}
+.hint3{
+    position:absolute;
+    margin-top: -1%;
+    left:72%;
+    font-size:1.4vw;
+    opacity:0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.info{
+    margin-top:21%;
+    font-size:1.4vw;
+    margin-left:1%;
+    opacity:0;
+}
+.info2{
+    margin-top:1%;
+    font-size:1.4vw;
+    margin-left:1%;
+    opacity:0;
+}
+.numbers{
+    color:tomato;
+    font-size:1.8vw;
+}
+.bk{
+    position:absolute;
+    margin-top:10%;
+    font-size:1.5vw;
+    color:black;
+    transition:color 1s;
+    text-decoration: none;
+    margin-left:1%;
+}
+.bk:hover{
+    color: #898989;
+}
+

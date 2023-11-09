@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Verlag';
+    src: url('../Verlag-Book.otf') format('opentype');
+}
+@font-face {
+    font-family: 'GaramondPro';
+    src: url('../fonts/AGaramondPro-Regular.woff') format('woff');
+}
+
+body {
+    font-family: 'Verlag';
+    margin:1.5%;
+    background-color: #ececec;
+}
+h1{
+    font-family: 'Verlag';
+    margin: -1.5%;
+    padding:1.5%;
+    color:white;
+    background-color: #2b292b;
+    height:3vw;
+    letter-spacing: 0.15vw;
+}
+h3{
+    font-family: 'GaramondPro';
+    margin:1.5% -1.5% 0% -1.5%;
+    padding:1%;
+    background-color: white;
+}
+.img{
+    position:absolute;
+    width:27vw;
+    transition:opacity 0.8s;
+}
+.img1{
+    margin-top: 0%;
+    height:auto;
+}
+.img2{
+    margin-top:15.5%;
+}
+.img3{
+    margin-top:31%;
+    
+}
+.title{
+    position:absolute;
+    font-size:2.3vw;
+    margin-left: 30%;
+    transition:opacity 0.8s;
+}
+
+.t2{
+    margin-top:15.5%;
+}
+.t3{
+    margin-top:31%;
+
+}
+.container1{
+    position: absolute;
+    width:90vw;
+    height:15.5vw;
+}
+.container2{
+    position: absolute;
+    width:90vw;
+    height:15.5vw;
+    margin-top: 15.5%;
+}
+.container3{
+    position: absolute;
+    width:90vw;
+    height:15.5vw;
+    margin-top: 31%;
+}
+.bk{
+    position:absolute;
+    margin-top:43%;
+    font-size:1.5vw;
+    color:black;
+    transition:color 1s;
+    text-decoration: none;
+    margin-left:90%;
+}
+.bk:hover{
+    color: #898989;
+}

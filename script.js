@@ -1,0 +1,80 @@
+const futureText=document.querySelector('.textL')
+const futureImg=document.querySelector('.imgL')
+const currentText=document.querySelector('.textM')
+const currentImg=document.querySelector('.imgM')
+const pastText=document.querySelector('.textS')
+const pastImg=document.querySelector('.imgS')
+const title=document.getElementById('title')
+futureImg.addEventListener('mouseover',()=>{
+    futureText.style.opacity='1'
+    futureText.style.transition='opacity 0.5s ease-out,font-size 0.2s,margin-top 0.2s,margin-left 0.2s'
+    futureText.style.fontSize='8vw'
+    futureText.style.marginTop='-51%'
+    futureText.style.marginLeft='35%'
+    futureImg.style.transition='opacity 0.5s ease-out'
+    futureImg.style.opacity='1'
+    title.style.opacity='0.6'
+    document.querySelector('.rectM').style.opacity='0.4'
+})
+futureImg.addEventListener('mouseout',()=>{
+    futureText.style.opacity='0.7'
+    futureImg.style.opacity='0'
+    futureText.style.fontSize='5vw'
+    futureText.style.marginTop='-54%'
+    futureText.style.marginLeft='39.5%'
+    title.style.opacity='1'
+    document.querySelector('.rectM').style.opacity='1'
+})
+currentImg.addEventListener('mouseover',()=>{
+    currentText.style.opacity='1'
+    currentText.style.fontSize='6.6vw'
+    currentText.style.marginTop='-45%'
+    currentText.style.marginLeft='25.5%'
+    currentText.style.transition='opacity 0.5s ease-out,font-size 0.2s,margin-top 0.2s,margin-left 0.2s'
+    currentImg.style.transition='opacity 0.5s ease-out'
+    currentImg.style.opacity='1'
+    document.querySelector('.rectM').style.border='none'
+    title.style.opacity='0.5'
+    document.querySelector('.rectS').style.opacity='0.4'
+    document.querySelector('.rectL').style.opacity='0.4'
+    document.querySelector('.img-bg').style.opacity='0.6'
+    
+})
+currentImg.addEventListener('mouseout',()=>{
+    currentText.style.opacity='0.7'
+    currentImg.style.opacity='0'
+    currentText.style.fontSize='3.3vw'
+    currentText.style.marginTop='-52%'
+    currentText.style.marginLeft='36%'
+    document.querySelector('.rectM').style.border='0.1vw solid #ececec'
+    title.style.opacity='1'
+    document.querySelector('.rectS').style.opacity='1'
+    document.querySelector('.rectL').style.opacity='1'
+    document.querySelector('.img-bg').style.opacity='1'
+})
+pastImg.addEventListener('mouseover',()=>{
+    pastText.style.opacity='1'
+    pastText.style.transition='opacity 0.5s ease-out,font-size 0.2s,margin-top 0.2s,margin-left 0.2s'
+    pastText.style.fontSize='5.8vw'
+    pastText.style.marginTop='-40%'
+    pastText.style.marginLeft='30%'
+    pastImg.style.transition='opacity 0.5s ease-out'
+    pastImg.style.opacity='1'
+    document.querySelector('.rectS').style.border='none'
+    title.style.opacity='0.3'
+    document.querySelector('.rectM').style.opacity='0.4'
+    document.querySelector('.rectL').style.opacity='0.4'
+    document.querySelector('.img-bg').style.opacity='0.6'
+})
+pastImg.addEventListener('mouseout',()=>{
+    pastText.style.opacity='0.7'
+    pastImg.style.opacity='0'
+    pastText.style.fontSize='3vw'
+    pastText.style.marginTop='-46%'
+    pastText.style.marginLeft='40%'
+    document.querySelector('.rectS').style.border='0.1vw solid #ececec'
+    title.style.opacity='1'
+    document.querySelector('.rectM').style.opacity='1'
+    document.querySelector('.rectL').style.opacity='1'
+    document.querySelector('.img-bg').style.opacity='1'
+})
